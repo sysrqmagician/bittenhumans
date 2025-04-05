@@ -6,6 +6,7 @@ edition = "2021"
 license = "MIT"
 repository = "https://github.com/sysrqmagician/bittenhumans"
 authors = ["sysrqmagician"]
+readme = "README.md"
 categories = ["encoding"]
 
 [dependencies]
