@@ -1,0 +1,15 @@
+tag_prefix = "v"
+pre_bump_hooks = [
+    "cargo test",
+    "cargo clippy",
+    "cargo build --release",
+    "cargo set-version {{version}}",
+]
+post_bump_hooks = ["git push origin {{version_tag}}", "cargo publish"]
+
+[changelog]
+path = "CHANGELOG.md"
+
+[commit_types]
+ci = { omit_from_changelog = true, changelog_title = "CI" }
+docs = { omit_from_changelog = true, changelog_title = "Documentation" }

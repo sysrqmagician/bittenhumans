@@ -7,3 +7,6 @@ license = "MIT"
 
 [dependencies]
 enum-iterator = "2.1.0"
+
+[dev-dependencies]
+cargo-edit = "0.12.2"
