@@ -4,6 +4,9 @@ description = "Simple byte size humanization library for stringbar"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+repository = "https://github.com/sysrqmagician/bittenhumans"
+authors = ["sysrqmagician"]
+categories = ["encoding"]
 
 [dependencies]
 enum-iterator = "2.1.0"
