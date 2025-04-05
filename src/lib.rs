@@ -15,7 +15,7 @@ impl ByteSizeFormatter {
     /// * `system` - The numeral system (Binary or Decimal)
     /// * `magnitude` - The magnitude (Kilo, Mega, Giga, etc.)
     ///
-    /// /// # Example
+    /// # Example
     /// ```
     /// use bittenhumans::ByteSizeFormatter;
     /// use bittenhumans::consts::{Magnitude, System};
