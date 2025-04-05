@@ -89,7 +89,8 @@ impl ByteSizeFormatter {
     ///
     /// * `value` - The byte size value to format
     /// * `system` - The numeral system to use (Binary or Decimal)
-    ///// # Examples
+    ///
+    /// # Example
     /// ```
     /// use bittenhumans::ByteSizeFormatter;
     /// use bittenhumans::consts::System;
