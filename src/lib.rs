@@ -36,6 +36,10 @@ impl ByteSizeFormatter {
         Self::new(system, last)
     }
 
+    pub fn fit_format(value: u64, system: System) -> String {
+        Self::fit(value, system).format(value)
+    }
+
     pub fn get_unit(&self) -> &str {
         &self.unit
     }
