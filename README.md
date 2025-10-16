@@ -1,7 +1,6 @@
-
 # bittenhumans
 
-[![Crates.io](https://img.shields.io/crates/v/bittenhumans)](https://crates.io/bittenhumans)
+[![Crates.io](https://img.shields.io/crates/v/bittenhumans)](https://crates.io/crates/bittenhumans)
 ![Crates.io](https://img.shields.io/crates/l/bittenhumans)
 [![Docs.rs](https://docs.rs/bittenhumans/badge.svg)](https://docs.rs/bittenhumans)
 
@@ -9,10 +8,8 @@ A lightweight, simple byte size humanization library for Rust.
 
 ## Features
 
-- Supports both **decimal** (KB, MB, GB) and **binary** (KiB, MiB, GiB) numeral systems
-- Automatic magnitude selection for appropriate unit sizing
-- IEC-compliant formatting with "i" infix for binary units
-- Configurable formatting with reusable formatters
+- Basic humanization, supporting both **decimal** (KB, MB, GB) and **binary** (KiB, MiB, GiB) numeral systems
+- Automatically fit values and reuse formatters
 
 ## Installation
 
@@ -79,17 +76,6 @@ fn main() {
 
 For more detailed information, check the [API documentation](https://docs.rs/bittenhumans).
 
-## Use Cases
-
-- Status bars and system monitors
-- File managers and download managers
-- System information displays
-- Anywhere byte sizes need to be displayed in a human-readable format
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
